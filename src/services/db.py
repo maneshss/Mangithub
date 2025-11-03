@@ -11,6 +11,7 @@ Usage:
           cur.execute('SELECT 1')
           print(cur.fetchone())
 """
+
 from __future__ import annotations
 
 import os
@@ -44,7 +45,9 @@ def connect_dsn(dsn: Optional[str] = None):
 
 
 @contextmanager
-def get_connection(dsn: Optional[str] = None) -> Iterator[psycopg2.extensions.connection]:
+def get_connection(
+    dsn: Optional[str] = None,
+) -> Iterator[psycopg2.extensions.connection]:
     """Context manager that yields a psycopg2 connection and ensures it's closed.
 
     Example:
