@@ -3,6 +3,7 @@
 It will read DSN from the environment variable `DATABASE_DSN`. If not set,
 it falls back to the example DSN provided by the user.
 """
+
 from __future__ import annotations
 
 import os
