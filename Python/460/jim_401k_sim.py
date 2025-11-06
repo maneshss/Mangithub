@@ -11,7 +11,7 @@ Assumptions:
 import numpy as np
 
 
-def run_simulation(N=100000, seed=42):
+def run_simulation(N=1000, seed=42):
     np.random.seed(seed)
 
     start_age = 24
