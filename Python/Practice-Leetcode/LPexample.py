@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 from scipy.stats import linregress
 
 # Sample data: time (in seconds) and distance (in meters)
