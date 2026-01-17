@@ -28,3 +28,5 @@ df_test = pd.read_csv(
 df_train.head(n=4)
 # View first lines of training data
 print(df_train.head(n=4))
+df_train.info()
+df_train.describe()
