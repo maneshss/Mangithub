@@ -99,3 +99,6 @@ target/
 
 # ignore large videos in Prof folder
 MachineLearning/Prof/*.mp4
+
+# ignore videos
+*.mp4
