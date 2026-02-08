@@ -11,7 +11,7 @@ X = iris.data[:, 2:]  # petal length and width
 print("X shape:", X.shape)
 y = iris.target
 
-tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
+tree_clf = DecisionTreeClassifier(max_depth=3, random_state=42)
 tree_clf.fit(X, y)
 
 # ---------- GINI CALCULATION (based on the trained tree) ----------
