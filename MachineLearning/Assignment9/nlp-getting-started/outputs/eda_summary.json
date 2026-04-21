@@ -1,0 +1,49 @@
+{
+  "train_shape": [
+    7613,
+    5
+  ],
+  "test_shape": [
+    3263,
+    4
+  ],
+  "train_missing": {
+    "id": 0,
+    "keyword": 61,
+    "location": 2533,
+    "text": 0,
+    "target": 0
+  },
+  "test_missing": {
+    "id": 0,
+    "keyword": 26,
+    "location": 1105,
+    "text": 0
+  },
+  "class_distribution": {
+    "0": 4342,
+    "1": 3271
+  },
+  "class_distribution_normalized": {
+    "0": 0.5703,
+    "1": 0.4297
+  },
+  "text_len_train": {
+    "min": 8,
+    "max": 195,
+    "mean": 120.79351109943518,
+    "median": 127.0
+  },
+  "text_len_test": {
+    "min": 8,
+    "max": 195,
+    "mean": 122.00551639595464,
+    "median": 129.0
+  },
+  "word_count_train": {
+    "min": 1,
+    "max": 35,
+    "mean": 17.32063575463024,
+    "median": 17.0
+  }
+}
